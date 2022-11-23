@@ -1,0 +1,291 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .burger-menu {
+        display: none;
+    }
+    .menu-x {
+        display: none;
+    }
+
+    .x {
+        display: none;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #A8A8A8;
+    }
+
+    h5 {
+        font-size: 16px;
+        line-height: 17px;
+    }
+
+    h3 {
+        font-size: 18px;
+        line-height: 17px;
+    }
+
+    h4, a {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    p {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .card {
+        margin-top: 30px;
+        width: 70rem;
+        height: 52rem;
+        background-color: white;
+        display: flex;
+    }
+
+    .color-gray {
+        color: #494C55;
+    }
+
+    .left-side {
+        width: 65rem;
+        height: 50rem;
+        background-color: black;
+    }
+
+    .right-side {
+        padding: 20px;
+        padding-right: 50px;
+    }
+
+    .line-white {
+        height: 1px;
+        width: 100%;
+        background-color: white;
+    }
+
+    .line-black {
+        height: 1px;
+        width: 100%;
+        background-color: black;
+    }
+
+    .d-flex {
+        display: flex;
+    }
+
+    .flex-direction-column {
+        flex-direction: column;
+    }
+
+    .justify-content-center {
+        justify-content: center;
+    }
+
+    .align-items-center {
+        align-items: center;
+    }
+
+    .text-align-center{
+        text-align: center;
+    }
+
+    .text-white {
+        color: white;
+    }
+
+    .left-side, .contact, .language, .social, .skill {
+        margin: 15px;
+    }
+
+    .mt-25 {
+        margin-top: 25px;
+    }
+
+    .mt-10 {
+        margin-top: 10px;
+    }
+
+    .mt-5 {
+        margin-top: 5px;
+    }
+
+
+    .ml-10 {
+        margin-left: 10px;
+    }
+
+    .ml-30{
+        margin-left: 30px;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 30px;
+    }
+
+    .gap-20 {
+        gap: 20px;
+    }
+
+    .mlr-75 {
+        margin-right: 75px;
+        margin-left: 75px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: white;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .burger-menu {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+    }
+
+    .menu-x {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+        display: none;
+    }
+
+    h5 {
+        font-size: 16px;
+        line-height: 17px;
+    }
+
+    h3 {
+        font-size: 18px;
+        line-height: 17px;
+    }
+
+    h4, a {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    p {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+
+    .color-gray {
+        color: #494C55;
+    }
+
+    .left-side {
+        width: 270px;
+        height: 100%;
+        background-color: black;
+        padding: 20px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        display: none;
+    }
+
+    .right-side {
+        padding: 20px;
+        padding-right: 50px;
+    }
+
+    .line-white {
+        height: 1px;
+        width: 100%;
+        background-color: white;
+    }
+
+    .line-black {
+        height: 1px;
+        width: 100%;
+        background-color: black;
+    }
+
+    .d-flex {
+        display: flex;
+    }
+
+    .flex-direction-column {
+        flex-direction: column;
+    }
+
+    .justify-content-center {
+        justify-content: center;
+    }
+
+    .align-items-center {
+        align-items: center;
+    }
+
+    .text-align-center{
+        text-align: center;
+    }
+
+    .text-white {
+        color: white;
+    }
+
+    .mobile-m-t-15 {
+        margin-top: 15px;
+    }
+
+    .mobile-m-t-5 {
+        margin-top: 5px;
+    }
+
+        .text-white {
+        color: white;
+    }
+
+    .text-white {
+        color: white;
+    }
+
+    .gap-20 {
+        gap: 20px;
+    }
+
+}
